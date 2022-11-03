@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: plum;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.utama{
+    margin-top: 150px;
+}
+
+.card {
+    width: 600px;
+    height: max-content;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.card div{
+    background-color: purple; 
+    border-radius: 15px;
+    height: max-content;
+    margin: 0 auto;
+}
+.nama {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nama div {
+    margin: 20px;
+}
+
+.image img {
+    border-radius: 50%;
+}
+
+.name h3 {
+    font-size: 2rem;
+}
+
+.name h3,
+.name p {
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+a{
+    text-decoration: none;
+    color: plum;
+}
+
+button {
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: plum;
+    color: purple;
+    text-transform: uppercase;
+
+
+}
+#about,#sosmed,#input{
+    display: none;
+}
+#output {
+    display: block;
+}
+button:hover {
+    cursor:pointer;
+}
+.bottom {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+input[type="text"] {
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: fit-content;
+}
+.output {
+    border: 1px solid black;
+    height: 200px;
+}
+
+@media screen and (max-width:720px) {
+    .container-card {
+        width: fit-content;
+        text-align: center;
+    }
+    .top {
+        flex-direction: column;
+    }
+    
+}

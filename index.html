@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Kartu -->
+    <div class="utama">
+        <div class="card">
+            <div class="nama">
+                <div class="image">
+                    <img src="rahma.jpg" alt="profil" width="150" height="210" />
+                    <!-- Data Diri -->
+                </div>
+                <div class="name">
+                    <h3>Kartu Nama</h3>
+                    <button onclick="about()" id="sembunyi">Identitas</button><button onclick="sosmed()">Sosial
+                        Media</button><button onclick="hidepesan()">Saran</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <div id="about">
+                    <p>
+                        Nama:RAHMA WATI
+                    </p>
+                    <p>NIM:120140184
+                    </p>
+                    <p>
+                        Prodi:Teknik Informatika
+                    </p>
+                    <!-- Sosial Media -->
+                </div>
+                <div id="sosmed">
+                    
+                    <p><a href="https://www.instagram.com/radsgn89/?hl=en">@radsgn89</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=6283138800039">Whatsapp</a></p>
+                    
+                </div>
+                <div id="message" class="pesan">
+                    <div class="input" id="input">
+                        <input type="text" id="pesan" />
+                        <button onclick="getPesan()">Kirim</button>
+                    </div>
+                    <div class="ouput" id="output">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
